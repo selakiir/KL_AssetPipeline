@@ -1,6 +1,8 @@
-﻿Log file open, 02/27/19 09:28:40
+﻿Log file open, 03/01/19 15:40:31
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
+LogWindows: File 'VSPerf140.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
 LogWindows: File 'VtuneApi.dll' does not exist
 LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
@@ -8,7 +10,7 @@ LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: KL_WoodBlockSample
 LogPlatformFile: Not using cached read wrapper
 LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.276947
+LogStats: Stats thread started at 0.347094
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: -7:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -91,7 +93,7 @@ LogPluginManager: Mounting plugin ProceduralMeshComponent
 LogPluginManager: Mounting plugin RuntimePhysXCooking
 LogPluginManager: Mounting plugin SteamVR
 LogPluginManager: Mounting plugin WindowsMoviePlayer
-LogStreaming: Display: Took  0.112s to configure plugins.
+LogStreaming: Display: Took  0.118s to configure plugins.
 LogInit: Using libcurl 7.55.1-DEV
 LogInit:  - built for x86_64-pc-win32
 LogInit:  - supports SSL with OpenSSL/1.0.2h
@@ -116,13 +118,13 @@ LogInit: Build: ++UE4+Release-4.20-CL-4369336
 LogInit: Engine Version: 4.20.3-4369336+++UE4+Release-4.20
 LogInit: Compatible Engine Version: 4.20.0-4212847+++UE4+Release-4.20
 LogInit: Net CL: 4212847
-LogInit: OS: Windows 10 (), CPU: Intel(R) Core(TM) i7-8809G CPU @ 3.10GHz, GPU: Radeon RX Vega M GH Graphics
+LogInit: OS: Windows 7 (Service Pack 1), CPU: AMD FX(tm)-8320 Eight-Core Processor           , GPU: NVIDIA GeForce GTX 750
 LogInit: Compiled (64-bit): Sep 17 2018 12:26:19
 LogInit: Compiled with Visual C++: 19.13.26129.00
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.20
 LogInit: Command Line: -EpicPortal  -epicusername="selakiir" -epicuserid=991267a91fac4e73a7b0a27418c61be0 -epiclocale=en-US
-LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/Win64/
+LogInit: Base Directory: D:/UE_4.20/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
 LogDevObjectVersion: Number of dev versions registered: 20
 LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
@@ -148,197 +150,749 @@ LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
 LogStreaming: Display: Took  0.001s to delete old logs.
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2019.02.27-16.28.40:880][  0]LogInit: Selected Device Profile: [Windows]
-[2019.02.27-16.28.40:880][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2019.02.27-16.28.40:898][  0]LogHAL: Display: Platform has ~ 16 GB [17094942720 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
-[2019.02.27-16.28.40:898][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
-[2019.02.27-16.28.40:898][  0]LogInit: Going up to parent DeviceProfile []
-[2019.02.27-16.28.40:899][  0]LogInit: Computer: eae-n-006
-[2019.02.27-16.28.40:899][  0]LogInit: User: u1111377
-[2019.02.27-16.28.40:899][  0]LogInit: CPU Page size=4096, Cores=4
-[2019.02.27-16.28.40:899][  0]LogInit: High frequency timer resolution =3.023441 MHz
-[2019.02.27-16.28.40:899][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
-[2019.02.27-16.28.40:899][  0]LogMemory: Platform Memory Stats for Windows
-[2019.02.27-16.28.40:899][  0]LogMemory: Process Physical Memory: 100.07 MB used, 100.07 MB peak
-[2019.02.27-16.28.40:899][  0]LogMemory: Process Virtual Memory: 91.27 MB used, 91.27 MB peak
-[2019.02.27-16.28.40:899][  0]LogMemory: Physical Memory: 5600.80 MB used,  10702.21 MB free, 16303.01 MB total
-[2019.02.27-16.28.40:899][  0]LogMemory: Virtual Memory: 4640.71 MB used,  10702.21 MB free, 134217728.00 MB total
-[2019.02.27-16.28.40:913][  0]LogInit: Using OS detected language (en-US).
-[2019.02.27-16.28.40:913][  0]LogInit: Using OS detected locale (en-US).
-[2019.02.27-16.28.40:914][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2019.02.27-16.28.41:248][  0]LogStreaming: Display: Took  0.335s to InitEngineTextLocalization.
-[2019.02.27-16.28.41:248][  0]LogInit: Setting process to per monitor DPI aware
-[2019.02.27-16.28.41:279][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2019.02.27-16.28.41:279][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2019.02.27-16.28.41:461][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2019.02.27-16.28.41:461][  0]LogD3D11RHI: D3D11 adapters:
-[2019.02.27-16.28.41:494][  0]LogD3D11RHI:    0. 'Radeon RX Vega M GH Graphics' (Feature Level 11_0)
-[2019.02.27-16.28.41:494][  0]LogD3D11RHI:       4042/0/8151 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x1002
-[2019.02.27-16.28.41:519][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 630' (Feature Level 11_0)
-[2019.02.27-16.28.41:519][  0]LogD3D11RHI:       128/0/8151 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
-[2019.02.27-16.28.41:520][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2019.02.27-16.28.41:520][  0]LogD3D11RHI:       0/0/8151 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2019.02.27-16.28.41:520][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2019.02.27-16.28.41:527][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2019.02.27-16.28.41:527][  0]LogD3D11RHI:     GPU DeviceId: 0x694c (for the marketing name, search the web for "GPU Device Id")
-[2019.02.27-16.28.41:527][  0]LogWindows: EnumDisplayDevices:
-[2019.02.27-16.28.41:528][  0]LogWindows:    0. 'Radeon RX Vega M GH Graphics' (P:1 D:1)
-[2019.02.27-16.28.41:528][  0]LogWindows:    1. 'Radeon RX Vega M GH Graphics' (P:0 D:0)
-[2019.02.27-16.28.41:528][  0]LogWindows:    2. 'Radeon RX Vega M GH Graphics' (P:0 D:0)
-[2019.02.27-16.28.41:528][  0]LogWindows:    3. 'Radeon RX Vega M GH Graphics' (P:0 D:0)
-[2019.02.27-16.28.41:529][  0]LogWindows:    4. 'Radeon RX Vega M GH Graphics' (P:0 D:0)
-[2019.02.27-16.28.41:529][  0]LogWindows:    5. 'Radeon RX Vega M GH Graphics' (P:0 D:0)
-[2019.02.27-16.28.41:529][  0]LogWindows:    6. 'Radeon RX Vega M GH Graphics' (P:0 D:0)
-[2019.02.27-16.28.41:529][  0]LogWindows:    7. 'Intel(R) HD Graphics 630' (P:0 D:0)
-[2019.02.27-16.28.41:529][  0]LogWindows:    8. 'Intel(R) HD Graphics 630' (P:0 D:0)
-[2019.02.27-16.28.41:530][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:7 
-[2019.02.27-16.28.41:530][  0]LogD3D11RHI:     Adapter Name: Radeon RX Vega M GH Graphics
-[2019.02.27-16.28.41:530][  0]LogD3D11RHI:   Driver Version: Adrenalin 18.9.1 (internal:24.20.11026.2001, unified:24.20.11026.2001)
-[2019.02.27-16.28.41:530][  0]LogD3D11RHI:      Driver Date: 8-30-2018
-[2019.02.27-16.28.41:530][  0]LogRHI: Texture pool is 2829 MB (70% of 4042 MB)
-[2019.02.27-16.28.41:621][  0]LogD3D11RHI: Async texture creation enabled
-[2019.02.27-16.28.41:632][  0]LogD3D11RHI: GPU Timing Frequency: 25.000000 (Debug: 2 1)
-[2019.02.27-16.28.41:633][  0]LogShaderCompilers: Guid format shader working directory is -36 characters bigger than the processId version (../../../../../../Users/u1111377/Documents/GitHub/KL_AssetPipeline/KL_WoodBlockSample/Intermediate/Shaders/WorkingDirectory/3180/).
-[2019.02.27-16.28.41:634][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/u1111377/AppData/Local/Temp/UnrealShaderWorkingDir/524D059449AADEF47211D1969A72B729/'.
-[2019.02.27-16.28.41:880][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2019.02.27-16.28.41:893][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2019.02.27-16.28.41:905][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2019.02.27-16.28.41:917][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2019.02.27-16.28.41:930][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2019.02.27-16.28.41:941][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2019.02.27-16.28.41:955][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2019.02.27-16.28.41:967][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2019.02.27-16.28.41:973][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2019.02.27-16.28.42:037][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.02.27-16.28.42:037][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.02.27-16.28.42:037][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.02.27-16.28.42:037][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.02.27-16.28.42:037][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.02.27-16.28.42:037][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.02.27-16.28.42:037][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.02.27-16.28.42:037][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.02.27-16.28.42:037][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.02.27-16.28.42:037][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.02.27-16.28.42:037][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.02.27-16.28.42:037][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.02.27-16.28.42:037][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.02.27-16.28.42:037][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.02.27-16.28.42:037][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.02.27-16.28.42:037][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.02.27-16.28.42:037][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.02.27-16.28.42:037][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.02.27-16.28.42:038][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2019.02.27-16.28.42:095][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2019.02.27-16.28.42:095][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2019.02.27-16.28.42:116][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2019.02.27-16.28.42:116][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2019.02.27-16.28.42:127][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2019.02.27-16.28.42:138][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2019.02.27-16.28.42:148][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2019.02.27-16.28.42:160][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2019.02.27-16.28.42:168][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
-[2019.02.27-16.28.42:168][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2019.02.27-16.28.42:228][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2019.02.27-16.28.42:228][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2019.02.27-16.28.42:228][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2019.02.27-16.28.42:862][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2019.02.27-16.28.42:915][  0]LogDerivedDataCache: Loaded boot cache 0.05s 71MB C:/Users/u1111377/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
-[2019.02.27-16.28.42:915][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/u1111377/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
-[2019.02.27-16.28.42:915][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/u1111377/Documents/GitHub/KL_AssetPipeline/KL_WoodBlockSample/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2019.02.27-16.28.42:915][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2019.02.27-16.28.42:915][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/u1111377/Documents/GitHub/KL_AssetPipeline/KL_WoodBlockSample/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2019.02.27-16.28.42:915][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2019.02.27-16.28.42:925][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2019.02.27-16.28.42:938][  0]LogDerivedDataCache: Using Local data cache path C:/Users/u1111377/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2019.02.27-16.28.42:938][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2019.02.27-16.28.42:938][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2019.02.27-16.28.42:952][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2019.02.27-16.28.42:953][  0]LogSlate: Using FreeType 2.6.0
-[2019.02.27-16.28.42:954][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2019.02.27-16.28.43:021][  0]LogAssetRegistry: FAssetRegistry took 0.0258 seconds to start up
-[2019.02.27-16.28.43:306][  0]LogInit: Selected Device Profile: [Windows]
-[2019.02.27-16.28.43:422][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2019.02.27-16.28.43:426][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2019.02.27-16.28.43:426][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
-[2019.02.27-16.28.43:426][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2019.02.27-16.28.43:426][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2019.02.27-16.28.43:439][  0]LogNetVersion: KL_WoodBlockSample 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 809877169)
-[2019.02.27-16.28.43:908][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.099928 seconds
-[2019.02.27-16.28.43:913][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
-[2019.02.27-16.28.43:913][  0]LogUObjectAllocator: 6690864 out of 0 bytes used by permanent object pool.
-[2019.02.27-16.28.43:913][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2019.02.27-16.28.44:678][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2019.02.27-16.28.44:692][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2019.02.27-16.28.44:829][  0]SourceControl: Source control is disabled
-[2019.02.27-16.28.44:829][  0]SourceControl: Source control is disabled
-[2019.02.27-16.28.44:830][  0]SourceControl: Source control is disabled
-[2019.02.27-16.28.44:831][  0]SourceControl: Source control is disabled
-[2019.02.27-16.28.44:987][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2019.02.27-16.28.45:057][  0]LogOcInput: OculusInput pre-init called
-[2019.02.27-16.28.45:111][  0]LogEngine: Initializing Engine...
-[2019.02.27-16.28.45:112][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2019.02.27-16.28.45:113][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
-[2019.02.27-16.28.45:113][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2019.02.27-16.28.45:113][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
-[2019.02.27-16.28.45:113][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2019.02.27-16.28.45:297][  0]LogInit: Initializing FReadOnlyCVARCache
-[2019.02.27-16.28.45:310][  0]LogAIModule: Creating AISystem for world Untitled
-[2019.02.27-16.28.45:346][  0]LogInit: XAudio2 using '1 - CintiqPro24P (AMD High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2019.02.27-16.28.45:370][  0]LogInit: FAudioDevice initialized.
-[2019.02.27-16.28.45:371][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
-[2019.02.27-16.28.45:446][  0]LogDerivedDataCache: Saved boot cache 0.08s 71MB C:/Users/u1111377/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
-[2019.02.27-16.28.45:449][  0]LogInit: Texture streaming: Enabled
-[2019.02.27-16.28.45:465][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2019.02.27-16.28.45:478][  0]LogInit: Transaction tracking system initialized
-[2019.02.27-16.28.45:501][  0]BlueprintLog: New page: Editor Load
-[2019.02.27-16.28.45:580][  0]LocalizationService: Localization service is disabled
-[2019.02.27-16.28.45:813][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2019.02.27-16.28.45:813][  0]LogCook: Display: Mobile HDR setting 1
-[2019.02.27-16.28.45:813][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2019.02.27-16.28.45:813][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
-[2019.02.27-16.28.45:813][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2019.02.27-16.28.45:813][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
-[2019.02.27-16.28.45:813][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2019.02.27-16.28.45:931][  0]LogFileCache: Scanning file cache for directory 'C:/Users/u1111377/Documents/GitHub/KL_AssetPipeline/KL_WoodBlockSample/Content/' took 0.02s
-[2019.02.27-16.28.45:931][  0]SourceControl: Source control is disabled
-[2019.02.27-16.28.45:932][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
-[2019.02.27-16.28.45:932][  0]LightingResults: New page: Lighting Build
-[2019.02.27-16.28.45:935][  0]MapCheck: New page: Map Check
-[2019.02.27-16.28.45:935][  0]LightingResults: New page: Lighting Build
-[2019.02.27-16.28.46:117][  0]LogAIModule: Creating AISystem for world Untitled_1
-[2019.02.27-16.28.46:123][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2019.02.27-16.28.46:145][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2019.02.27-16.28.46:206][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 61.489ms to complete.
-[2019.02.27-16.28.46:206][  0]LogFileHelpers: Loading map 'Template_Default' took 0.275
-[2019.02.27-16.28.46:337][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.02.27-16.28.46:345][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.02.27-16.28.46:351][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.02.27-16.28.46:357][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.02.27-16.28.46:376][  0]LogCollectionManager: Loaded 0 collections in 0.001933 seconds
-[2019.02.27-16.28.46:449][  0]LogFileCache: Scanning file cache for directory 'C:/Users/u1111377/Documents/GitHub/KL_AssetPipeline/KL_WoodBlockSample/Saved/Collections/' took 0.01s
-[2019.02.27-16.28.46:449][  0]LogFileCache: Scanning file cache for directory 'C:/Users/u1111377/Documents/GitHub/KL_AssetPipeline/KL_WoodBlockSample/Content/Developers/u1111377/Collections/' took 0.01s
-[2019.02.27-16.28.46:449][  0]LogFileCache: Scanning file cache for directory 'C:/Users/u1111377/Documents/GitHub/KL_AssetPipeline/KL_WoodBlockSample/Content/Collections/' took 0.01s
-[2019.02.27-16.28.46:449][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
-[2019.02.27-16.28.46:463][  0]LogContentBrowser: Native class hierarchy populated in 0.0111 seconds. Added 2572 classes and 603 folders.
-[2019.02.27-16.28.46:484][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2019.02.27-16.28.46:895][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2019.02.27-16.28.46:917][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
-[2019.02.27-16.28.47:004][  0]LogSlate: Took 0.000240 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2019.02.27-16.28.47:007][  0]LogSlate: Took 0.000146 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2019.02.27-16.28.47:020][  0]LogSlate: Took 0.005766 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2019.02.27-16.28.47:160][  0]LogRenderer: Reallocating scene render targets to support 1208x576 Format 10 NumSamples 1 (Frame:1).
-[2019.02.27-16.28.47:339][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2019.02.27-16.28.47:339][  0]LogLoad: (Engine Initialization) Total time: 8.39 seconds
-[2019.02.27-16.28.47:339][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2019.02.27-16.28.47:349][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2019.02.27-16.28.47:375][  0]LogAssetRegistry: Asset discovery search completed in 4.3770 seconds
-[2019.02.27-16.28.47:376][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
-[2019.02.27-16.28.47:376][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000038 seconds (updated 0 objects)
-[2019.02.27-16.28.47:378][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2019.02.27-16.28.53:016][661]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.02.27-16.29.14:484][  9]LogSlate: Window 'Save Level As' being destroyed
-[2019.02.27-16.29.28:116][394]LogSlate: Window 'Save Level As' being destroyed
-[2019.02.27-16.29.28:196][394]LogSlate: Took 0.005593 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2019.02.27-16.29.28:260][394]LogSavePackage: Moving '../../../../../../Users/u1111377/Documents/GitHub/KL_AssetPipeline/KL_WoodBlockSample/Saved/WoodTextures_KLC238FE2345E1B0B541399086B7A35F92.tmp' to '../../../../../../Users/u1111377/Documents/GitHub/KL_AssetPipeline/KL_WoodBlockSample/Content/WoodTextures_KL.umap'
-[2019.02.27-16.29.28:303][394]LogSavePackage: Moving '../../../../../../Users/u1111377/Documents/GitHub/KL_AssetPipeline/KL_WoodBlockSample/Saved/WoodTextures_KL_BuiltData2A202C5F400A3823B2848590B683D99A.tmp' to '../../../../../../Users/u1111377/Documents/GitHub/KL_AssetPipeline/KL_WoodBlockSample/Content/WoodTextures_KL_BuiltData.uasset'
-[2019.02.27-16.29.28:312][394]LogFileHelpers: Saving map 'WoodTextures_KL' took 0.190
+[2019.03.01-22.40.31:368][  0]LogInit: Selected Device Profile: [Windows]
+[2019.03.01-22.40.31:368][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.03.01-22.40.31:384][  0]LogHAL: Display: Platform has ~ 8 GB [8485437440 / 8589934592 / 8], which maps to Default [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.03.01-22.40.31:384][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2019.03.01-22.40.31:385][  0]LogInit: Going up to parent DeviceProfile []
+[2019.03.01-22.40.31:385][  0]LogInit: Computer: KYLA-PC
+[2019.03.01-22.40.31:385][  0]LogInit: User: Kyla
+[2019.03.01-22.40.31:385][  0]LogInit: CPU Page size=4096, Cores=4
+[2019.03.01-22.40.31:385][  0]LogInit: High frequency timer resolution =3.429648 MHz
+[2019.03.01-22.40.31:385][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2019.03.01-22.40.31:385][  0]LogMemory: Platform Memory Stats for Windows
+[2019.03.01-22.40.31:385][  0]LogMemory: Process Physical Memory: 100.79 MB used, 100.79 MB peak
+[2019.03.01-22.40.31:385][  0]LogMemory: Process Virtual Memory: 93.46 MB used, 93.46 MB peak
+[2019.03.01-22.40.31:386][  0]LogMemory: Physical Memory: 5312.00 MB used,  2780.34 MB free, 8092.34 MB total
+[2019.03.01-22.40.31:386][  0]LogMemory: Virtual Memory: 481.84 MB used,  2780.34 MB free, 8388608.00 MB total
+[2019.03.01-22.40.31:429][  0]LogInit: Using OS detected language (en-US).
+[2019.03.01-22.40.31:429][  0]LogInit: Using OS detected locale (en-US).
+[2019.03.01-22.40.31:431][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2019.03.01-22.40.31:951][  0]LogStreaming: Display: Took  0.522s to InitEngineTextLocalization.
+[2019.03.01-22.40.31:952][  0]LogWindows: Failed to load 'shcore.dll' (GetLastError=126)
+[2019.03.01-22.40.31:952][  0]LogWindows: File 'shcore.dll' does not exist
+[2019.03.01-22.40.31:952][  0]LogInit: Setting process to DPI aware
+[2019.03.01-22.40.31:982][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.03.01-22.40.31:982][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.03.01-22.40.32:270][  0]LogHMD: Failed to initialize OpenVR with code 105
+[2019.03.01-22.40.32:270][  0]LogD3D11RHI: D3D11 adapters:
+[2019.03.01-22.40.32:323][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 750' (Feature Level 11_0)
+[2019.03.01-22.40.32:323][  0]LogD3D11RHI:       963/0/3072 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2019.03.01-22.40.32:323][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.03.01-22.40.32:330][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.03.01-22.40.32:331][  0]LogD3D11RHI:     GPU DeviceId: 0x1381 (for the marketing name, search the web for "GPU Device Id")
+[2019.03.01-22.40.32:331][  0]LogWindows: EnumDisplayDevices:
+[2019.03.01-22.40.32:331][  0]LogWindows:    0. 'NVIDIA GeForce GTX 750' (P:1 D:1)
+[2019.03.01-22.40.32:331][  0]LogWindows:    1. 'NVIDIA GeForce GTX 750' (P:0 D:0)
+[2019.03.01-22.40.32:331][  0]LogWindows:    2. 'NVIDIA GeForce GTX 750' (P:0 D:0)
+[2019.03.01-22.40.32:332][  0]LogWindows:    3. 'NVIDIA GeForce GTX 750' (P:0 D:0)
+[2019.03.01-22.40.32:332][  0]LogWindows:    4. 'RDPDD Chained DD' (P:0 D:0)
+[2019.03.01-22.40.32:332][  0]LogWindows:    5. 'RDP Encoder Mirror Driver' (P:0 D:0)
+[2019.03.01-22.40.32:332][  0]LogWindows:    6. 'RDP Reflector Display Driver' (P:0 D:0)
+[2019.03.01-22.40.32:332][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2019.03.01-22.40.32:333][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 750
+[2019.03.01-22.40.32:333][  0]LogD3D11RHI:   Driver Version: 398.11 (internal:24.21.13.9811, unified:398.11)
+[2019.03.01-22.40.32:333][  0]LogD3D11RHI:      Driver Date: 6-1-2018
+[2019.03.01-22.40.32:333][  0]LogRHI: Texture pool is 674 MB (70% of 963 MB)
+[2019.03.01-22.40.32:356][  0]LogD3D11RHI: Async texture creation enabled
+[2019.03.01-22.40.32:378][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2019.03.01-22.40.32:428][  0]LogShaderCompilers: Guid format shader working directory is -22 characters bigger than the processId version (C:/Users/Kyla/Documents/GitHub/KL_AssetPipeline/KL_WoodBlockSample/Intermediate/Shaders/WorkingDirectory/11208/).
+[2019.03.01-22.40.32:428][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Kyla/AppData/Local/Temp/UnrealShaderWorkingDir/102722FB4CFBFC096A845DAC91BFD51D/'.
+[2019.03.01-22.40.32:961][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2019.03.01-22.40.32:985][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2019.03.01-22.40.33:008][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2019.03.01-22.40.33:031][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2019.03.01-22.40.33:055][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2019.03.01-22.40.33:078][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2019.03.01-22.40.33:101][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2019.03.01-22.40.33:124][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2019.03.01-22.40.33:135][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2019.03.01-22.40.33:272][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.01-22.40.33:272][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.01-22.40.33:272][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.01-22.40.33:272][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.01-22.40.33:272][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.01-22.40.33:272][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.01-22.40.33:272][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.01-22.40.33:272][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.01-22.40.33:272][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.01-22.40.33:272][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.01-22.40.33:272][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.01-22.40.33:272][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.01-22.40.33:272][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.01-22.40.33:272][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.01-22.40.33:272][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.01-22.40.33:272][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.01-22.40.33:272][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.01-22.40.33:272][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.01-22.40.33:274][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2019.03.01-22.40.33:350][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.03.01-22.40.33:350][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.03.01-22.40.33:391][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.03.01-22.40.33:391][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.03.01-22.40.33:412][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2019.03.01-22.40.33:433][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2019.03.01-22.40.33:454][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2019.03.01-22.40.33:476][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2019.03.01-22.40.33:491][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2019.03.01-22.40.33:491][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.03.01-22.40.33:572][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.03.01-22.40.33:572][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.03.01-22.40.33:572][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.03.01-22.40.34:753][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.03.01-22.40.34:872][  0]LogDerivedDataCache: Loaded boot cache 0.12s 71MB C:/Users/Kyla/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.03.01-22.40.34:873][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Kyla/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2019.03.01-22.40.34:873][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/Kyla/Documents/GitHub/KL_AssetPipeline/KL_WoodBlockSample/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.03.01-22.40.34:873][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.03.01-22.40.34:873][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/Kyla/Documents/GitHub/KL_AssetPipeline/KL_WoodBlockSample/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.03.01-22.40.34:873][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.03.01-22.40.34:890][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.03.01-22.40.34:901][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Kyla/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.03.01-22.40.34:901][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.03.01-22.40.34:901][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.03.01-22.40.34:933][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.03.01-22.40.34:934][  0]LogSlate: Using FreeType 2.6.0
+[2019.03.01-22.40.34:935][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.03.01-22.40.35:038][  0]LogAssetRegistry: FAssetRegistry took 0.0279 seconds to start up
+[2019.03.01-22.40.35:647][  0]LogInit: Selected Device Profile: [Windows]
+[2019.03.01-22.40.35:854][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2019.03.01-22.40.35:861][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2019.03.01-22.40.35:861][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.03.01-22.40.35:861][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.03.01-22.40.35:861][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2019.03.01-22.40.35:887][  0]LogNetVersion: KL_WoodBlockSample 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 809877169)
+[2019.03.01-22.40.36:632][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.112355 seconds
+[2019.03.01-22.40.36:642][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2019.03.01-22.40.36:642][  0]LogUObjectAllocator: 6690864 out of 0 bytes used by permanent object pool.
+[2019.03.01-22.40.36:642][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.03.01-22.40.37:889][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.03.01-22.40.37:902][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.03.01-22.40.38:080][  0]SourceControl: Source control is disabled
+[2019.03.01-22.40.38:080][  0]SourceControl: Source control is disabled
+[2019.03.01-22.40.38:082][  0]SourceControl: Source control is disabled
+[2019.03.01-22.40.38:083][  0]SourceControl: Source control is disabled
+[2019.03.01-22.40.38:260][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.03.01-22.40.38:432][  0]LogOcInput: OculusInput pre-init called
+[2019.03.01-22.40.38:515][  0]LogEngine: Initializing Engine...
+[2019.03.01-22.40.38:519][  0]LogHMD: Failed to initialize OpenVR with code 105
+[2019.03.01-22.40.38:521][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.03.01-22.40.38:521][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.03.01-22.40.38:521][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.03.01-22.40.38:521][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.03.01-22.40.38:821][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.03.01-22.40.38:843][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.03.01-22.40.38:882][  0]LogInit: XAudio2 using 'Speakers (3- ROCCAT Khan AIMO)' : 6 channels at 48 kHz using 24 bits per sample (channel mask 0x3f)
+[2019.03.01-22.40.38:902][  0]LogInit: FAudioDevice initialized.
+[2019.03.01-22.40.38:902][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.03.01-22.40.39:044][  0]LogDerivedDataCache: Saved boot cache 0.14s 71MB C:/Users/Kyla/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.03.01-22.40.39:058][  0]LogInit: Texture streaming: Enabled
+[2019.03.01-22.40.39:086][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.03.01-22.40.39:100][  0]LogInit: Transaction tracking system initialized
+[2019.03.01-22.40.39:131][  0]BlueprintLog: New page: Editor Load
+[2019.03.01-22.40.39:239][  0]LocalizationService: Localization service is disabled
+[2019.03.01-22.40.39:590][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.03.01-22.40.39:590][  0]LogCook: Display: Mobile HDR setting 1
+[2019.03.01-22.40.39:590][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2019.03.01-22.40.39:590][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.03.01-22.40.39:590][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.03.01-22.40.39:590][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Kyla/Documents/GitHub/KL_AssetPipeline/KL_WoodBlockSample/Content/' took 0.01s
+[2019.03.01-22.40.39:590][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.03.01-22.40.39:590][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.03.01-22.40.39:772][  0]SourceControl: Source control is disabled
+[2019.03.01-22.40.39:772][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.03.01-22.40.39:774][  0]LightingResults: New page: Lighting Build
+[2019.03.01-22.40.39:778][  0]MapCheck: New page: Map Check
+[2019.03.01-22.40.39:778][  0]LightingResults: New page: Lighting Build
+[2019.03.01-22.40.40:235][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2019.03.01-22.40.40:243][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.03.01-22.40.40:368][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.03.01-22.40.40:439][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 70.789ms to complete.
+[2019.03.01-22.40.40:440][  0]LogFileHelpers: Loading map 'Template_Default' took 0.667
+[2019.03.01-22.40.40:540][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.01-22.40.40:553][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.01-22.40.40:565][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.01-22.40.40:578][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.01-22.40.40:586][  0]LogCollectionManager: Loaded 0 collections in 0.002277 seconds
+[2019.03.01-22.40.40:630][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Kyla/Documents/GitHub/KL_AssetPipeline/KL_WoodBlockSample/Saved/Collections/' took 0.01s
+[2019.03.01-22.40.40:630][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Kyla/Documents/GitHub/KL_AssetPipeline/KL_WoodBlockSample/Content/Developers/Kyla/Collections/' took 0.01s
+[2019.03.01-22.40.40:630][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Kyla/Documents/GitHub/KL_AssetPipeline/KL_WoodBlockSample/Content/Collections/' took 0.01s
+[2019.03.01-22.40.40:630][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2019.03.01-22.40.40:648][  0]LogContentBrowser: Native class hierarchy populated in 0.0174 seconds. Added 2572 classes and 603 folders.
+[2019.03.01-22.40.40:657][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2019.03.01-22.40.40:743][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2019.03.01-22.40.40:750][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2019.03.01-22.40.40:768][  0]LogSlate: Took 0.000324 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.03.01-22.40.40:772][  0]LogSlate: Took 0.000278 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.03.01-22.40.40:778][  0]LogSlate: Took 0.000271 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.03.01-22.40.40:907][  0]LogRenderer: Reallocating scene render targets to support 1208x580 Format 10 NumSamples 1 (Frame:1).
+[2019.03.01-22.40.41:131][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2019.03.01-22.40.41:131][  0]LogLoad: (Engine Initialization) Total time: 13.28 seconds
+[2019.03.01-22.40.41:131][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.03.01-22.40.41:174][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.03.01-22.40.41:237][  2]LogAssetRegistry: Asset discovery search completed in 6.2193 seconds
+[2019.03.01-22.40.41:239][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2019.03.01-22.40.41:239][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000053 seconds (updated 0 objects)
+[2019.03.01-22.40.45:199][427]LogSlate: Took 0.000270 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.03.01-22.40.48:420][784]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.01-22.40.55:040][300]LogTexture: Display: Building textures: KL_WoodTileable001 (AutoDXT, 2048X2048)
+[2019.03.01-22.40.55:040][300]LogTexture: Display: Building textures: KL_WoodTilableNormal001 (BC5, 2048X2048)
+[2019.03.01-22.40.55:040][300]LogMaterial: Display: Missing cached shader map for material M_WoodBlockMaster_KL, compiling. 
+[2019.03.01-22.40.55:264][300]LogShaderCompilers: Display: Shaders left to compile 22
+[2019.03.01-22.40.55:264][300]LogShaderCompilers: Display: Shaders left to compile 12
+[2019.03.01-22.40.55:264][300]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.03.01-22.41.39:735][376]LogSlate: Took 0.000288 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.03.01-22.41.39:743][376]LogAssetEditorManager: Opening Asset editor for MaterialInstanceConstant /Game/Materials/MI_WoodBlockMaster_KL_Inst.MI_WoodBlockMaster_KL_Inst
+[2019.03.01-22.41.45:468][610]LogMaterial: Display: Missing cached shader map for material M_WoodBlockMaster_KL, compiling. 
+[2019.03.01-22.41.45:522][611]LogShaderCompilers: Display: Shaders left to compile 22
+[2019.03.01-22.41.45:522][611]LogShaderCompilers: Display: Shaders left to compile 12
+[2019.03.01-22.41.45:522][611]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.03.01-22.41.47:819][819]LogSlate: Window 'Platform Stats' being destroyed
+[2019.03.01-22.41.47:822][819]LogSlate: Window 'Platform Stats' being destroyed
+[2019.03.01-22.41.56:317][774]LogSlate: Window 'MI_WoodBlockMaster_KL_Inst' being destroyed
+[2019.03.01-22.41.56:319][774]LogSlate: Window 'MI_WoodBlockMaster_KL_Inst' being destroyed
+[2019.03.01-22.41.57:106][836]LogAssetEditorManager: Opening Asset editor for Material /Game/Materials/M_WoodBlockMaster_KL.M_WoodBlockMaster_KL
+[2019.03.01-22.41.57:110][836]LogMaterial: Display: Missing cached shader map for material M_WoodBlockMaster_KL, compiling. 
+[2019.03.01-22.41.57:522][836]LogMaterial: Display: Missing cached shader map for material M_WoodBlockMaster_KL, compiling. 
+[2019.03.01-22.41.57:563][836]LogShaderCompilers: Display: Shaders left to compile 21
+[2019.03.01-22.41.57:563][836]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.03.01-22.41.57:563][836]LogShaderCompilers: Display: Shaders left to compile 19
+[2019.03.01-22.41.57:563][836]LogShaderCompilers: Display: Shaders left to compile 18
+[2019.03.01-22.41.57:575][836]LogMaterial: Display: Missing cached shader map for material M_WoodBlockMaster_KL, compiling. 
+[2019.03.01-22.41.57:629][836]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_1, compiling. 
+[2019.03.01-22.41.57:636][836]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_0, compiling. 
+[2019.03.01-22.41.57:645][836]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2019.03.01-22.41.57:652][836]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureCoordinate_0, compiling. 
+[2019.03.01-22.41.57:658][836]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionMultiply_1, compiling. 
+[2019.03.01-22.41.57:665][836]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_2, compiling. 
+[2019.03.01-22.41.57:729][836]LogSlate: Took 0.014208 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2019.03.01-22.41.58:367][837]LogShaderCompilers: Display: Shaders left to compile 33
+[2019.03.01-22.41.58:367][837]LogShaderCompilers: Display: Shaders left to compile 32
+[2019.03.01-22.41.58:367][837]LogShaderCompilers: Display: Shaders left to compile 31
+[2019.03.01-22.41.58:367][837]LogShaderCompilers: Display: Shaders left to compile 30
+[2019.03.01-22.41.58:367][837]LogShaderCompilers: Display: Shaders left to compile 29
+[2019.03.01-22.41.58:367][837]LogShaderCompilers: Display: Shaders left to compile 28
+[2019.03.01-22.41.58:367][837]LogShaderCompilers: Display: Shaders left to compile 27
+[2019.03.01-22.41.58:443][838]LogShaderCompilers: Display: Shaders left to compile 26
+[2019.03.01-22.41.58:443][838]LogShaderCompilers: Display: Shaders left to compile 25
+[2019.03.01-22.41.58:443][838]LogShaderCompilers: Display: Shaders left to compile 24
+[2019.03.01-22.41.58:443][838]LogShaderCompilers: Display: Shaders left to compile 23
+[2019.03.01-22.41.58:610][848]LogShaderCompilers: Display: Shaders left to compile 22
+[2019.03.01-22.41.58:718][856]LogShaderCompilers: Display: Shaders left to compile 21
+[2019.03.01-22.41.58:992][874]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.03.01-22.41.59:059][877]LogShaderCompilers: Display: Shaders left to compile 19
+[2019.03.01-22.41.59:075][878]LogShaderCompilers: Display: Shaders left to compile 18
+[2019.03.01-22.41.59:314][894]LogShaderCompilers: Display: Shaders left to compile 17
+[2019.03.01-22.41.59:396][899]LogShaderCompilers: Display: Shaders left to compile 16
+[2019.03.01-22.41.59:604][913]LogShaderCompilers: Display: Shaders left to compile 15
+[2019.03.01-22.41.59:698][915]LogShaderCompilers: Display: Shaders left to compile 14
+[2019.03.01-22.41.59:698][915]LogSlate: Took 0.044136 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2019.03.01-22.41.59:733][917]LogShaderCompilers: Display: Shaders left to compile 13
+[2019.03.01-22.41.59:956][929]LogShaderCompilers: Display: Shaders left to compile 12
+[2019.03.01-22.42.00:125][938]LogShaderCompilers: Display: Shaders left to compile 11
+[2019.03.01-22.42.00:125][938]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.03.01-22.42.00:251][947]LogShaderCompilers: Display: Shaders left to compile 9
+[2019.03.01-22.42.00:273][948]MaterialEditorStats: Base pass shader: 118 instructions
+[2019.03.01-22.42.00:273][948]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 192 instructions
+[2019.03.01-22.42.00:273][948]MaterialEditorStats: Base pass vertex shader: 36 instructions
+[2019.03.01-22.42.00:273][948]MaterialEditorStats: Texture samplers: 6/16
+[2019.03.01-22.42.00:273][948]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2019.03.01-22.42.00:273][948]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2019.03.01-22.42.00:414][956]LogShaderCompilers: Display: Shaders left to compile 8
+[2019.03.01-22.42.00:466][959]LogShaderCompilers: Display: Shaders left to compile 7
+[2019.03.01-22.42.00:597][967]LogShaderCompilers: Display: Shaders left to compile 6
+[2019.03.01-22.42.00:616][968]LogShaderCompilers: Display: Shaders left to compile 5
+[2019.03.01-22.42.00:783][978]LogShaderCompilers: Display: Shaders left to compile 4
+[2019.03.01-22.42.00:874][983]LogShaderCompilers: Display: Shaders left to compile 3
+[2019.03.01-22.42.00:972][989]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.03.01-22.42.01:055][994]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.03.01-22.42.08:406][577]LogMaterial: Display: Missing cached shader map for material M_WoodBlockMaster_KL, compiling. 
+[2019.03.01-22.42.08:514][578]LogShaderCompilers: Display: Shaders left to compile 21
+[2019.03.01-22.42.08:514][578]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.03.01-22.42.08:514][578]LogShaderCompilers: Display: Shaders left to compile 19
+[2019.03.01-22.42.08:514][578]LogShaderCompilers: Display: Shaders left to compile 18
+[2019.03.01-22.42.08:703][588]LogShaderCompilers: Display: Shaders left to compile 17
+[2019.03.01-22.42.08:773][592]LogShaderCompilers: Display: Shaders left to compile 16
+[2019.03.01-22.42.08:805][594]LogShaderCompilers: Display: Shaders left to compile 15
+[2019.03.01-22.42.08:878][599]LogShaderCompilers: Display: Shaders left to compile 14
+[2019.03.01-22.42.08:974][605]LogShaderCompilers: Display: Shaders left to compile 13
+[2019.03.01-22.42.09:039][609]LogShaderCompilers: Display: Shaders left to compile 12
+[2019.03.01-22.42.09:086][612]LogShaderCompilers: Display: Shaders left to compile 11
+[2019.03.01-22.42.09:086][612]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.03.01-22.42.09:223][621]LogShaderCompilers: Display: Shaders left to compile 9
+[2019.03.01-22.42.09:435][633]LogShaderCompilers: Display: Shaders left to compile 8
+[2019.03.01-22.42.09:654][646]LogShaderCompilers: Display: Shaders left to compile 7
+[2019.03.01-22.42.09:702][649]LogShaderCompilers: Display: Shaders left to compile 6
+[2019.03.01-22.42.09:840][657]LogShaderCompilers: Display: Shaders left to compile 5
+[2019.03.01-22.42.10:037][669]LogShaderCompilers: Display: Shaders left to compile 4
+[2019.03.01-22.42.10:055][670]LogShaderCompilers: Display: Shaders left to compile 3
+[2019.03.01-22.42.10:342][687]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.03.01-22.42.10:408][691]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.03.01-22.42.10:861][722]MaterialEditorStats: Base pass shader: 114 instructions
+[2019.03.01-22.42.10:861][722]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 188 instructions
+[2019.03.01-22.42.10:861][722]MaterialEditorStats: Base pass vertex shader: 36 instructions
+[2019.03.01-22.42.10:861][722]MaterialEditorStats: Texture samplers: 4/16
+[2019.03.01-22.42.10:861][722]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(1)
+[2019.03.01-22.42.10:861][722]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2019.03.01-22.42.12:427][873]LogMaterial: Display: Missing cached shader map for material M_WoodBlockMaster_KL, compiling. 
+[2019.03.01-22.42.12:461][874]LogShaderCompilers: Display: Shaders left to compile 21
+[2019.03.01-22.42.12:462][874]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.03.01-22.42.12:462][874]LogShaderCompilers: Display: Shaders left to compile 19
+[2019.03.01-22.42.12:462][874]LogShaderCompilers: Display: Shaders left to compile 18
+[2019.03.01-22.42.12:816][896]LogShaderCompilers: Display: Shaders left to compile 17
+[2019.03.01-22.42.12:833][897]LogShaderCompilers: Display: Shaders left to compile 16
+[2019.03.01-22.42.12:833][897]LogShaderCompilers: Display: Shaders left to compile 15
+[2019.03.01-22.42.12:920][903]LogShaderCompilers: Display: Shaders left to compile 14
+[2019.03.01-22.42.13:098][914]LogShaderCompilers: Display: Shaders left to compile 13
+[2019.03.01-22.42.13:116][915]LogShaderCompilers: Display: Shaders left to compile 12
+[2019.03.01-22.42.13:116][915]LogShaderCompilers: Display: Shaders left to compile 11
+[2019.03.01-22.42.13:147][917]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.03.01-22.42.13:340][930]LogShaderCompilers: Display: Shaders left to compile 9
+[2019.03.01-22.42.13:504][938]LogShaderCompilers: Display: Shaders left to compile 8
+[2019.03.01-22.42.13:680][949]LogShaderCompilers: Display: Shaders left to compile 7
+[2019.03.01-22.42.13:749][953]LogShaderCompilers: Display: Shaders left to compile 6
+[2019.03.01-22.42.13:931][964]LogShaderCompilers: Display: Shaders left to compile 5
+[2019.03.01-22.42.14:022][970]LogShaderCompilers: Display: Shaders left to compile 4
+[2019.03.01-22.42.14:103][975]LogShaderCompilers: Display: Shaders left to compile 3
+[2019.03.01-22.42.14:367][991]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.03.01-22.42.14:385][992]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.03.01-22.42.14:915][ 28]MaterialEditorStats: Base pass shader: 117 instructions
+[2019.03.01-22.42.14:915][ 28]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 191 instructions
+[2019.03.01-22.42.14:915][ 28]MaterialEditorStats: Base pass vertex shader: 36 instructions
+[2019.03.01-22.42.14:915][ 28]MaterialEditorStats: Texture samplers: 5/16
+[2019.03.01-22.42.14:916][ 28]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(2)
+[2019.03.01-22.42.14:916][ 28]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2019.03.01-22.42.29:958][213]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.01-22.42.39:337][ 14]LogMaterial: Display: Missing cached shader map for material M_WoodBlockMaster_KL, compiling. 
+[2019.03.01-22.42.39:352][ 14]LogMaterial: Warning: FMaterialUniformExpressionTexture had invalid TextureIndex! (2 / 2)
+[2019.03.01-22.42.39:421][ 15]LogShaderCompilers: Display: Shaders left to compile 21
+[2019.03.01-22.42.39:421][ 15]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.03.01-22.42.39:421][ 15]LogShaderCompilers: Display: Shaders left to compile 19
+[2019.03.01-22.42.39:421][ 15]LogShaderCompilers: Display: Shaders left to compile 18
+[2019.03.01-22.42.40:099][ 56]LogShaderCompilers: Display: Shaders left to compile 17
+[2019.03.01-22.42.40:149][ 59]LogShaderCompilers: Display: Shaders left to compile 16
+[2019.03.01-22.42.40:149][ 59]LogShaderCompilers: Display: Shaders left to compile 15
+[2019.03.01-22.42.40:164][ 60]LogShaderCompilers: Display: Shaders left to compile 14
+[2019.03.01-22.42.40:360][ 73]LogShaderCompilers: Display: Shaders left to compile 13
+[2019.03.01-22.42.40:376][ 74]LogShaderCompilers: Display: Shaders left to compile 12
+[2019.03.01-22.42.40:406][ 76]LogShaderCompilers: Display: Shaders left to compile 11
+[2019.03.01-22.42.40:421][ 77]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.03.01-22.42.40:618][ 90]LogShaderCompilers: Display: Shaders left to compile 9
+[2019.03.01-22.42.40:770][ 98]LogShaderCompilers: Display: Shaders left to compile 8
+[2019.03.01-22.42.40:987][111]LogShaderCompilers: Display: Shaders left to compile 7
+[2019.03.01-22.42.41:041][114]LogShaderCompilers: Display: Shaders left to compile 6
+[2019.03.01-22.42.41:231][125]LogShaderCompilers: Display: Shaders left to compile 5
+[2019.03.01-22.42.41:330][131]LogShaderCompilers: Display: Shaders left to compile 4
+[2019.03.01-22.42.41:401][135]LogShaderCompilers: Display: Shaders left to compile 3
+[2019.03.01-22.42.41:635][149]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.03.01-22.42.41:683][152]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.03.01-22.42.42:174][185]MaterialEditorStats: Base pass shader: 117 instructions
+[2019.03.01-22.42.42:174][185]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 191 instructions
+[2019.03.01-22.42.42:175][185]MaterialEditorStats: Base pass vertex shader: 36 instructions
+[2019.03.01-22.42.42:175][185]MaterialEditorStats: Texture samplers: 5/16
+[2019.03.01-22.42.42:175][185]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(2)
+[2019.03.01-22.42.42:175][185]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2019.03.01-22.42.51:547][907]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.01-22.42.51:643][912]LogMaterial: Display: Missing cached shader map for material M_WoodBlockMaster_KL, compiling. 
+[2019.03.01-22.42.51:670][913]LogShaderCompilers: Display: Shaders left to compile 21
+[2019.03.01-22.42.51:670][913]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.03.01-22.42.51:670][913]LogShaderCompilers: Display: Shaders left to compile 19
+[2019.03.01-22.42.51:670][913]LogShaderCompilers: Display: Shaders left to compile 18
+[2019.03.01-22.42.51:940][924]LogShaderCompilers: Display: Shaders left to compile 17
+[2019.03.01-22.42.52:022][929]LogShaderCompilers: Display: Shaders left to compile 16
+[2019.03.01-22.42.52:037][930]LogShaderCompilers: Display: Shaders left to compile 15
+[2019.03.01-22.42.52:053][931]LogShaderCompilers: Display: Shaders left to compile 14
+[2019.03.01-22.42.52:223][942]LogShaderCompilers: Display: Shaders left to compile 13
+[2019.03.01-22.42.52:289][946]LogShaderCompilers: Display: Shaders left to compile 12
+[2019.03.01-22.42.52:304][947]LogShaderCompilers: Display: Shaders left to compile 11
+[2019.03.01-22.42.52:333][949]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.03.01-22.42.52:476][959]LogShaderCompilers: Display: Shaders left to compile 9
+[2019.03.01-22.42.52:681][971]LogShaderCompilers: Display: Shaders left to compile 8
+[2019.03.01-22.42.52:872][983]LogShaderCompilers: Display: Shaders left to compile 7
+[2019.03.01-22.42.52:906][985]LogShaderCompilers: Display: Shaders left to compile 6
+[2019.03.01-22.42.53:075][996]LogShaderCompilers: Display: Shaders left to compile 5
+[2019.03.01-22.42.53:239][  6]LogShaderCompilers: Display: Shaders left to compile 4
+[2019.03.01-22.42.53:292][  9]LogShaderCompilers: Display: Shaders left to compile 3
+[2019.03.01-22.42.53:518][ 23]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.03.01-22.42.53:581][ 27]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.03.01-22.42.54:061][ 59]MaterialEditorStats: Base pass shader: 117 instructions
+[2019.03.01-22.42.54:061][ 59]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 191 instructions
+[2019.03.01-22.42.54:061][ 59]MaterialEditorStats: Base pass vertex shader: 36 instructions
+[2019.03.01-22.42.54:061][ 59]MaterialEditorStats: Texture samplers: 5/16
+[2019.03.01-22.42.54:061][ 59]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(2)
+[2019.03.01-22.42.54:061][ 59]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2019.03.01-22.43.07:392][ 91]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.01-22.46.37:988][697]LogSlate: Window 'Message' being destroyed
+[2019.03.01-22.46.39:000][697]LogMaterial: Display: Missing cached shader map for material M_WoodBlockMaster_KL, compiling. 
+[2019.03.01-22.46.39:072][697]LogShaderCompilers: Display: Shaders left to compile 21
+[2019.03.01-22.46.39:072][697]LogShaderCompilers: Display: Shaders left to compile 20
+[2019.03.01-22.46.39:072][697]LogShaderCompilers: Display: Shaders left to compile 19
+[2019.03.01-22.46.39:072][697]LogShaderCompilers: Display: Shaders left to compile 18
+[2019.03.01-22.46.39:104][697]LogMaterial: Display: Missing cached shader map for material M_WoodBlockMaster_KL, compiling. 
+[2019.03.01-22.46.39:270][697]LogMaterial: Display: Missing cached shader map for material M_WoodBlockMaster_KL, compiling. 
+[2019.03.01-22.46.39:474][697]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy M_WoodBlockMaster_KL, compiling. 
+[2019.03.01-22.46.41:830][697]LogShaderCompilers: Display: Shaders left to compile 40
+[2019.03.01-22.46.41:830][697]LogShaderCompilers: Display: Shaders left to compile 39
+[2019.03.01-22.46.41:830][697]LogShaderCompilers: Display: Shaders left to compile 38
+[2019.03.01-22.46.41:830][697]LogShaderCompilers: Display: Shaders left to compile 37
+[2019.03.01-22.46.41:830][697]LogShaderCompilers: Display: Shaders left to compile 36
+[2019.03.01-22.46.41:830][697]LogShaderCompilers: Display: Shaders left to compile 35
+[2019.03.01-22.46.41:830][697]LogShaderCompilers: Display: Shaders left to compile 34
+[2019.03.01-22.46.41:830][697]LogShaderCompilers: Display: Shaders left to compile 33
+[2019.03.01-22.46.41:830][697]LogShaderCompilers: Display: Shaders left to compile 32
+[2019.03.01-22.46.41:830][697]LogShaderCompilers: Display: Shaders left to compile 31
+[2019.03.01-22.46.41:830][697]LogShaderCompilers: Display: Shaders left to compile 30
+[2019.03.01-22.46.41:830][697]LogShaderCompilers: Display: Shaders left to compile 29
+[2019.03.01-22.46.41:830][697]LogShaderCompilers: Display: Shaders left to compile 28
+[2019.03.01-22.46.41:831][697]LogShaderCompilers: Display: Shaders left to compile 27
+[2019.03.01-22.46.41:831][697]LogShaderCompilers: Display: Shaders left to compile 26
+[2019.03.01-22.46.41:831][697]LogShaderCompilers: Display: Shaders left to compile 25
+[2019.03.01-22.46.41:831][697]LogShaderCompilers: Display: Shaders left to compile 24
+[2019.03.01-22.46.41:831][697]LogShaderCompilers: Display: Shaders left to compile 23
+[2019.03.01-22.46.41:831][697]LogShaderCompilers: Display: Shaders left to compile 22
+[2019.03.01-22.46.41:831][697]LogShaderCompilers: Display: Shaders left to compile 12
+[2019.03.01-22.46.41:831][697]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.03.01-22.46.41:857][697]TextureStreamingBuild: Display: Compiling optional shaders took 2.409 seconds.
+[2019.03.01-22.46.42:044][697]LogSlate: Window 'M_WoodBlockMaster_KL*' being destroyed
+[2019.03.01-22.46.42:044][697]LogSlate: Window 'M_WoodBlockMaster_KL*' being destroyed
+[2019.03.01-22.46.55:216][917]LogStaticMesh: Building static mesh wBlock001_KL...
+[2019.03.01-22.46.55:237][917]LogStaticMesh: Built static mesh [0.02s] /Game/WoodBlocks/wBlock001_KL.wBlock001_KL
+[2019.03.01-22.46.55:248][917]LogAssetEditorManager: Opening Asset editor for StaticMesh /Game/WoodBlocks/wBlock001_KL.wBlock001_KL
+[2019.03.01-22.47.02:517][235]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.01-22.47.07:119][498]LogSlate: Window 'wBlock001_KL' being destroyed
+[2019.03.01-22.47.07:121][498]LogSlate: Window 'wBlock001_KL' being destroyed
+[2019.03.01-22.47.08:296][569]LogActorFactory: Actor Factory created wBlock001_KL
+[2019.03.01-22.47.09:833][702]LogActorFactory: Actor Factory created wBlock001_KL
+[2019.03.01-22.47.15:157][110]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.01-22.48.00:609][729]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.01-22.50.41:970][926]LogSavePackage: Moving 'C:/Users/Kyla/Documents/GitHub/KL_AssetPipeline/KL_WoodBlockSample/Saved/Untitled_1_Auto198E2E154440C44F5A0E171A5125BFAEF.tmp' to 'C:/Users/Kyla/Documents/GitHub/KL_AssetPipeline/KL_WoodBlockSample/Saved/Autosaves/Temp/Untitled_1_Auto1.umap'
+[2019.03.01-22.50.42:036][926]LogFileHelpers: Editor autosave (incl. sublevels) for '/Temp/Untitled_1' took 0.497
+[2019.03.01-22.50.42:036][926]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.497
+[2019.03.01-22.50.42:045][926]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Materials/M_WoodBlockMaster_KL] ([1] browsable assets)...
+[2019.03.01-22.50.42:133][926]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Materials/M_WoodBlockMaster_KL.M_WoodBlockMaster_KL]
+[2019.03.01-22.50.42:133][926]OBJ SavePackage: Finished generating thumbnails for package [/Game/Materials/M_WoodBlockMaster_KL]
+[2019.03.01-22.50.42:257][926]LogSavePackage: Moving 'C:/Users/Kyla/Documents/GitHub/KL_AssetPipeline/KL_WoodBlockSample/Saved/M_WoodBlockMaster_KL_Auto1F33EF5814866838DED98F385E3111086.tmp' to 'C:/Users/Kyla/Documents/GitHub/KL_AssetPipeline/KL_WoodBlockSample/Saved/Autosaves/Game/Materials/M_WoodBlockMaster_KL_Auto1.uasset'
+[2019.03.01-22.50.42:259][926]LogFileHelpers: Auto-saving content packages took 0.215
+[2019.03.01-22.52.51:280][ 72]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (wBlock001_KL)
+[2019.03.01-22.52.51:626][101]Cmd: DELETE
+[2019.03.01-22.52.51:626][101]Cmd: ACTOR DELETE
+[2019.03.01-22.52.52:077][101]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.03.01-22.52.52:220][101]LogEditorActor: Deleted 1 Actors (0.294 secs)
+[2019.03.01-22.52.52:435][102]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.03.01-22.52.53:839][266]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.03.01-22.52.54:707][332]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.03.01-22.53.12:248][465]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.03.01-22.53.12:320][465]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:/Users/Kyla/Documents/GitHub/KL_AssetPipeline/KL_OutOfClassWoodenBlocks/KL_RooftopBlock.fbx)
+[2019.03.01-22.53.12:614][465]LogFbx: Loading FBX Scene from C:/Users/Kyla/Documents/GitHub/KL_AssetPipeline/KL_OutOfClassWoodenBlocks/KL_RooftopBlock.fbx
+[2019.03.01-22.53.12:653][465]LogFbx: FBX Scene Loaded Succesfully
+[2019.03.01-22.53.22:013][465]LogSlate: Window 'FBX Import Options' being destroyed
+[2019.03.01-22.53.23:448][465]LogLinker: Can't find file '/Game/WoodBlocks/KL_WoodTileable001'
+[2019.03.01-22.53.23:448][465]LogLinker: Can't find file '/Game/WoodBlocks/KL_WoodTileable001'
+[2019.03.01-22.53.23:585][465]LogTexture: Display: Building textures: KL_WoodTileable001 (AutoDXT, 2048X2048)
+[2019.03.01-22.53.24:981][465]LogMaterial: Display: Missing cached shader map for material lambert2, compiling. 
+[2019.03.01-22.53.25:002][465]LogFbx: Warning: Triangulating static mesh pCube4
+[2019.03.01-22.53.25:290][465]LogShaderCompilers: Display: Shaders left to compile 22
+[2019.03.01-22.53.25:290][465]LogShaderCompilers: Display: Shaders left to compile 12
+[2019.03.01-22.53.25:290][465]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.03.01-22.53.25:328][465]LogStaticMesh: Building static mesh KL_RooftopBlock...
+[2019.03.01-22.53.25:336][465]LogStaticMesh: Built static mesh [0.01s] /Game/WoodBlocks/KL_RooftopBlock.KL_RooftopBlock
+[2019.03.01-22.53.25:452][465]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2019.03.01-22.53.33:656][107]LogSlate: Window 'Message Log' being destroyed
+[2019.03.01-22.53.33:660][107]LogSlate: Window 'Message Log' being destroyed
+[2019.03.01-22.53.34:543][166]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.01-22.53.34:776][188]LogActorFactory: Actor Factory created KL_RooftopBlock
+[2019.03.01-22.53.35:738][267]LogActorFactory: Actor Factory created KL_RooftopBlock
+[2019.03.01-22.53.41:338][646]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.01-22.53.44:106][713]LogSlate: Window 'Delete Assets' being destroyed
+[2019.03.01-22.53.44:115][713]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.03.01-22.53.46:741][754]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.01-22.53.48:339][774]LogSlate: Window 'Delete Assets' being destroyed
+[2019.03.01-22.53.48:347][774]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.03.01-22.53.48:382][774]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.03.01-22.53.52:763][102]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.01-22.54.11:874][945]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.03.01-22.54.48:858][358]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.01-22.54.52:664][507]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.03.01-22.54.52:671][507]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:/Users/Kyla/Documents/GitHub/KL_AssetPipeline/KL_OutOfClassWoodenBlocks/KL_FlagBlock.fbx)
+[2019.03.01-22.54.52:686][507]LogFbx: Loading FBX Scene from C:/Users/Kyla/Documents/GitHub/KL_AssetPipeline/KL_OutOfClassWoodenBlocks/KL_FlagBlock.fbx
+[2019.03.01-22.54.52:697][507]LogFbx: FBX Scene Loaded Succesfully
+[2019.03.01-22.54.55:584][507]LogSlate: Window 'FBX Import Options' being destroyed
+[2019.03.01-22.54.55:745][507]LogTexture: Display: Building textures: KL_WoodTileable001 (AutoDXT, 2048X2048)
+[2019.03.01-22.54.57:107][507]LogMaterial: Display: Missing cached shader map for material lambert2, compiling. 
+[2019.03.01-22.54.57:124][507]LogFbx: Warning: Triangulating static mesh pCube2
+[2019.03.01-22.54.57:126][507]LogShaderCompilers: Display: Shaders left to compile 22
+[2019.03.01-22.54.57:126][507]LogShaderCompilers: Display: Shaders left to compile 12
+[2019.03.01-22.54.57:126][507]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.03.01-22.54.57:126][507]LogStaticMesh: Building static mesh KL_FlagBlock_pCube2...
+[2019.03.01-22.54.57:132][507]LogStaticMesh: Built static mesh [0.01s] /Game/WoodBlocks/KL_FlagBlock_pCube2.KL_FlagBlock_pCube2
+[2019.03.01-22.54.57:139][507]LogFbx: Warning: Triangulating static mesh pCube3
+[2019.03.01-22.54.57:142][507]LogStaticMesh: Building static mesh KL_FlagBlock_pCube3...
+[2019.03.01-22.54.57:147][507]LogStaticMesh: Built static mesh [0.01s] /Game/WoodBlocks/KL_FlagBlock_pCube3.KL_FlagBlock_pCube3
+[2019.03.01-22.54.57:156][507]LogFbx: Warning: Triangulating static mesh pCube4
+[2019.03.01-22.54.57:159][507]LogStaticMesh: Building static mesh KL_FlagBlock_pCube4...
+[2019.03.01-22.54.57:165][507]LogStaticMesh: Built static mesh [0.01s] /Game/WoodBlocks/KL_FlagBlock_pCube4.KL_FlagBlock_pCube4
+[2019.03.01-22.54.57:174][507]LogFbx: Warning: Triangulating static mesh pCube5
+[2019.03.01-22.54.57:176][507]LogStaticMesh: Building static mesh KL_FlagBlock_pCube5...
+[2019.03.01-22.54.57:187][507]LogStaticMesh: Built static mesh [0.01s] /Game/WoodBlocks/KL_FlagBlock_pCube5.KL_FlagBlock_pCube5
+[2019.03.01-22.54.57:195][507]LogFbx: Warning: Triangulating static mesh pCube6
+[2019.03.01-22.54.57:199][507]LogStaticMesh: Building static mesh KL_FlagBlock_pCube6...
+[2019.03.01-22.54.57:206][507]LogStaticMesh: Built static mesh [0.01s] /Game/WoodBlocks/KL_FlagBlock_pCube6.KL_FlagBlock_pCube6
+[2019.03.01-22.54.57:222][507]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2019.03.01-22.55.09:570][528]LogSlate: Window 'Message Log' being destroyed
+[2019.03.01-22.55.09:574][528]LogSlate: Window 'Message Log' being destroyed
+[2019.03.01-22.55.17:281][919]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.01-22.55.19:929][980]LogSlate: Window 'Delete Assets' being destroyed
+[2019.03.01-22.55.19:937][980]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.03.01-22.55.19:966][980]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.03.01-22.55.21:361][ 30]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.01-22.55.22:547][ 44]LogSlate: Window 'Delete Assets' being destroyed
+[2019.03.01-22.55.22:556][ 44]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.03.01-22.55.22:674][ 44]LogMaterial: Display: Missing cached shader map for material lambert2, compiling. 
+[2019.03.01-22.55.22:690][ 44]LogMaterial: Warning: /Game/WoodBlocks/lambert2.lambert2 (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2019.03.01-22.55.22:690][ 44]LogMaterial: 	(Node TextureSample) Texture Sample> Missing input texture
+[2019.03.01-22.55.23:420][ 64]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.01-22.55.24:611][ 79]LogSlate: Window 'Delete Assets' being destroyed
+[2019.03.01-22.55.24:620][ 79]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.03.01-22.55.25:538][ 98]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.01-22.55.29:261][189]LogSlate: Window 'Delete Assets' being destroyed
+[2019.03.01-22.55.29:270][189]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.03.01-22.55.29:310][189]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.03.01-22.56.10:730][535]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.01-22.56.12:524][544]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.03.01-22.56.12:541][544]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:/Users/Kyla/Documents/GitHub/KL_AssetPipeline/KL_OutOfClassWoodenBlocks/KL_FlagBlock.fbx)
+[2019.03.01-22.56.12:556][544]LogFbx: Loading FBX Scene from C:/Users/Kyla/Documents/GitHub/KL_AssetPipeline/KL_OutOfClassWoodenBlocks/KL_FlagBlock.fbx
+[2019.03.01-22.56.12:567][544]LogFbx: FBX Scene Loaded Succesfully
+[2019.03.01-22.56.13:779][544]LogSlate: Window 'FBX Import Options' being destroyed
+[2019.03.01-22.56.13:885][544]LogTexture: Display: Building textures: KL_WoodTileable001 (AutoDXT, 2048X2048)
+[2019.03.01-22.56.15:256][544]LogMaterial: Display: Missing cached shader map for material lambert2, compiling. 
+[2019.03.01-22.56.15:272][544]LogFbx: Warning: Triangulating static mesh pCube3
+[2019.03.01-22.56.15:294][544]LogShaderCompilers: Display: Shaders left to compile 22
+[2019.03.01-22.56.15:294][544]LogShaderCompilers: Display: Shaders left to compile 12
+[2019.03.01-22.56.15:294][544]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.03.01-22.56.15:295][544]LogStaticMesh: Building static mesh KL_FlagBlock_pCube3...
+[2019.03.01-22.56.15:301][544]LogStaticMesh: Built static mesh [0.01s] /Game/WoodBlocks/KL_FlagBlock_pCube3.KL_FlagBlock_pCube3
+[2019.03.01-22.56.15:309][544]LogFbx: Warning: Triangulating static mesh pCube4
+[2019.03.01-22.56.15:313][544]LogStaticMesh: Building static mesh KL_FlagBlock_pCube4...
+[2019.03.01-22.56.15:319][544]LogStaticMesh: Built static mesh [0.01s] /Game/WoodBlocks/KL_FlagBlock_pCube4.KL_FlagBlock_pCube4
+[2019.03.01-22.56.15:326][544]LogFbx: Warning: Triangulating static mesh pCube2
+[2019.03.01-22.56.15:329][544]LogStaticMesh: Building static mesh KL_FlagBlock_pCube2...
+[2019.03.01-22.56.15:337][544]LogStaticMesh: Built static mesh [0.01s] /Game/WoodBlocks/KL_FlagBlock_pCube2.KL_FlagBlock_pCube2
+[2019.03.01-22.56.15:344][544]LogFbx: Warning: Triangulating static mesh pCube6
+[2019.03.01-22.56.15:347][544]LogStaticMesh: Building static mesh KL_FlagBlock_pCube6...
+[2019.03.01-22.56.15:356][544]LogStaticMesh: Built static mesh [0.01s] /Game/WoodBlocks/KL_FlagBlock_pCube6.KL_FlagBlock_pCube6
+[2019.03.01-22.56.15:362][544]LogFbx: Warning: Triangulating static mesh pCube5
+[2019.03.01-22.56.15:365][544]LogStaticMesh: Building static mesh KL_FlagBlock_pCube5...
+[2019.03.01-22.56.15:372][544]LogStaticMesh: Built static mesh [0.01s] /Game/WoodBlocks/KL_FlagBlock_pCube5.KL_FlagBlock_pCube5
+[2019.03.01-22.56.15:385][544]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2019.03.01-22.56.20:924][900]LogSlate: Window 'Message Log' being destroyed
+[2019.03.01-22.56.20:927][900]LogSlate: Window 'Message Log' being destroyed
+[2019.03.01-22.56.26:857][421]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.01-22.56.26:991][429]LogActorFactory: Actor Factory created KL_FlagBlock_pCube6
+[2019.03.01-22.56.31:315][797]LogActorFactory: Actor Factory created KL_FlagBlock_pCube6
+[2019.03.01-22.56.49:724][506]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.01-22.56.49:927][523]LogActorFactory: Actor Factory created KL_FlagBlock_pCube5
+[2019.03.01-22.56.52:473][742]LogActorFactory: Actor Factory created KL_FlagBlock_pCube5
+[2019.03.01-22.56.53:335][781]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.01-22.56.53:498][792]LogActorFactory: Actor Factory created KL_FlagBlock_pCube4
+[2019.03.01-22.56.54:646][891]LogActorFactory: Actor Factory created KL_FlagBlock_pCube4
+[2019.03.01-22.57.06:685][ 78]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.01-22.57.06:891][ 95]LogActorFactory: Actor Factory created KL_FlagBlock_pCube2
+[2019.03.01-22.57.09:467][333]LogActorFactory: Actor Factory created KL_FlagBlock_pCube2
+[2019.03.01-22.57.09:899][369]LogActorFactory: Actor Factory created KL_FlagBlock_pCube2
+[2019.03.01-22.57.24:007][785]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (KL_FlagBlock_pCube5)
+[2019.03.01-22.57.37:977][151]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.01-22.57.38:143][162]LogActorFactory: Actor Factory created KL_FlagBlock_pCube3
+[2019.03.01-22.57.39:905][305]LogActorFactory: Actor Factory created KL_FlagBlock_pCube3
+[2019.03.01-22.57.40:782][382]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (KL_FlagBlock_pCube3)
+[2019.03.01-22.57.49:440][256]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.03.01-22.57.51:241][411]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (KL_FlagBlock_pCube5)
+[2019.03.01-22.57.53:750][655]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2019.03.01-22.58.00:732][324]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (KL_FlagBlock_pCube5)
+[2019.03.01-22.58.05:572][791]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.01-22.58.12:210][459]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.01-22.58.18:224][ 77]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (KL_FlagBlock_pCube3)
+[2019.03.01-22.58.21:325][376]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.03.01-22.58.28:873][ 64]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (KL_FlagBlock_pCube2)
+[2019.03.01-22.58.35:001][579]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.01-22.59.00:085][ 86]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.01-22.59.02:653][150]LogSlate: Window 'Delete Assets' being destroyed
+[2019.03.01-22.59.02:781][150]LogMaterial: Display: Missing cached shader map for material lambert2, compiling. 
+[2019.03.01-22.59.02:782][150]LogMaterial: Warning: /Game/WoodBlocks/lambert2.lambert2 (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2019.03.01-22.59.02:782][150]LogMaterial: 	(Node TextureSample) Texture Sample> Missing input texture
+[2019.03.01-22.59.05:416][207]LogSlate: Window 'Delete Assets' being destroyed
+[2019.03.01-22.59.16:164][ 26]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2019.03.01-22.59.18:487][197]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.01-22.59.20:229][341]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.01-22.59.21:793][454]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.01-22.59.23:458][585]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.01-22.59.33:706][572]Cmd: TRANSACTION UNDO
+[2019.03.01-22.59.33:706][572]LogEditorTransaction: Undo Scale Actors
+[2019.03.01-22.59.33:748][572]LogActorComponent: ~FComponentReregisterContext: (/Temp/Untitled_1.Untitled_1:PersistentLevel.KL_FlagBlock_pCube5_11.StaticMeshComponent0) Component already registered.
+[2019.03.01-22.59.38:424][996]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2019.03.01-22.59.39:123][ 59]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (KL_FlagBlock_pCube2)
+[2019.03.01-22.59.41:787][326]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.01-22.59.48:088][966]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (KL_RooftopBlock)
+[2019.03.01-22.59.53:009][475]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.03.01-23.00.42:755][  2]LogSavePackage: Moving 'C:/Users/Kyla/Documents/GitHub/KL_AssetPipeline/KL_WoodBlockSample/Saved/Untitled_1_Auto2DB8E76EF4329C56C667C5EBC580A3A69.tmp' to 'C:/Users/Kyla/Documents/GitHub/KL_AssetPipeline/KL_WoodBlockSample/Saved/Autosaves/Temp/Untitled_1_Auto2.umap'
+[2019.03.01-23.00.42:759][  2]LogFileHelpers: Editor autosave (incl. sublevels) for '/Temp/Untitled_1' took 0.169
+[2019.03.01-23.00.42:759][  2]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.169
+[2019.03.01-23.00.42:762][  2]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/WoodBlocks/KL_RooftopBlock] ([1] browsable assets)...
+[2019.03.01-23.00.42:784][  2]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/WoodBlocks/KL_RooftopBlock.KL_RooftopBlock]
+[2019.03.01-23.00.42:784][  2]OBJ SavePackage: Finished generating thumbnails for package [/Game/WoodBlocks/KL_RooftopBlock]
+[2019.03.01-23.00.42:835][  2]LogSavePackage: Moving 'C:/Users/Kyla/Documents/GitHub/KL_AssetPipeline/KL_WoodBlockSample/Saved/KL_RooftopBlock_Auto294B50CDB43CFC725C24CCBB5F30BFA47.tmp' to 'C:/Users/Kyla/Documents/GitHub/KL_AssetPipeline/KL_WoodBlockSample/Saved/Autosaves/Game/WoodBlocks/KL_RooftopBlock_Auto2.uasset'
+[2019.03.01-23.00.42:837][  2]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/WoodBlocks/KL_FlagBlock_pCube5] ([1] browsable assets)...
+[2019.03.01-23.00.42:859][  2]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/WoodBlocks/KL_FlagBlock_pCube5.KL_FlagBlock_pCube5]
+[2019.03.01-23.00.42:859][  2]OBJ SavePackage: Finished generating thumbnails for package [/Game/WoodBlocks/KL_FlagBlock_pCube5]
+[2019.03.01-23.00.42:875][  2]LogSavePackage: Moving 'C:/Users/Kyla/Documents/GitHub/KL_AssetPipeline/KL_WoodBlockSample/Saved/KL_FlagBlock_pCube5_Auto2B43146704391075833D89E94679D5392.tmp' to 'C:/Users/Kyla/Documents/GitHub/KL_AssetPipeline/KL_WoodBlockSample/Saved/Autosaves/Game/WoodBlocks/KL_FlagBlock_pCube5_Auto2.uasset'
+[2019.03.01-23.00.42:877][  2]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/WoodBlocks/KL_FlagBlock_pCube4] ([1] browsable assets)...
+[2019.03.01-23.00.42:900][  2]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/WoodBlocks/KL_FlagBlock_pCube4.KL_FlagBlock_pCube4]
+[2019.03.01-23.00.42:900][  2]OBJ SavePackage: Finished generating thumbnails for package [/Game/WoodBlocks/KL_FlagBlock_pCube4]
+[2019.03.01-23.00.42:916][  2]LogSavePackage: Moving 'C:/Users/Kyla/Documents/GitHub/KL_AssetPipeline/KL_WoodBlockSample/Saved/KL_FlagBlock_pCube4_Auto296166BA3408773CBEAD696BCAA13C0D6.tmp' to 'C:/Users/Kyla/Documents/GitHub/KL_AssetPipeline/KL_WoodBlockSample/Saved/Autosaves/Game/WoodBlocks/KL_FlagBlock_pCube4_Auto2.uasset'
+[2019.03.01-23.00.42:918][  2]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/WoodBlocks/KL_FlagBlock_pCube2] ([1] browsable assets)...
+[2019.03.01-23.00.42:941][  2]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/WoodBlocks/KL_FlagBlock_pCube2.KL_FlagBlock_pCube2]
+[2019.03.01-23.00.42:941][  2]OBJ SavePackage: Finished generating thumbnails for package [/Game/WoodBlocks/KL_FlagBlock_pCube2]
+[2019.03.01-23.00.42:958][  2]LogSavePackage: Moving 'C:/Users/Kyla/Documents/GitHub/KL_AssetPipeline/KL_WoodBlockSample/Saved/KL_FlagBlock_pCube2_Auto26085CBB944CF72804F13D0B551E92FBA.tmp' to 'C:/Users/Kyla/Documents/GitHub/KL_AssetPipeline/KL_WoodBlockSample/Saved/Autosaves/Game/WoodBlocks/KL_FlagBlock_pCube2_Auto2.uasset'
+[2019.03.01-23.00.42:962][  2]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/WoodBlocks/KL_FlagBlock_pCube3] ([1] browsable assets)...
+[2019.03.01-23.00.42:987][  2]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/WoodBlocks/KL_FlagBlock_pCube3.KL_FlagBlock_pCube3]
+[2019.03.01-23.00.42:987][  2]OBJ SavePackage: Finished generating thumbnails for package [/Game/WoodBlocks/KL_FlagBlock_pCube3]
+[2019.03.01-23.00.43:003][  2]LogSavePackage: Moving 'C:/Users/Kyla/Documents/GitHub/KL_AssetPipeline/KL_WoodBlockSample/Saved/KL_FlagBlock_pCube3_Auto2A7E2E1464337427ECC7AA0A1EE4E7F2E.tmp' to 'C:/Users/Kyla/Documents/GitHub/KL_AssetPipeline/KL_WoodBlockSample/Saved/Autosaves/Game/WoodBlocks/KL_FlagBlock_pCube3_Auto2.uasset'
+[2019.03.01-23.00.43:006][  2]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/WoodBlocks/KL_FlagBlock_pCube6] ([1] browsable assets)...
+[2019.03.01-23.00.43:028][  2]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/WoodBlocks/KL_FlagBlock_pCube6.KL_FlagBlock_pCube6]
+[2019.03.01-23.00.43:028][  2]OBJ SavePackage: Finished generating thumbnails for package [/Game/WoodBlocks/KL_FlagBlock_pCube6]
+[2019.03.01-23.00.43:044][  2]LogSavePackage: Moving 'C:/Users/Kyla/Documents/GitHub/KL_AssetPipeline/KL_WoodBlockSample/Saved/KL_FlagBlock_pCube6_Auto2A9555D1C4B01AA469960DCA60934343C.tmp' to 'C:/Users/Kyla/Documents/GitHub/KL_AssetPipeline/KL_WoodBlockSample/Saved/Autosaves/Game/WoodBlocks/KL_FlagBlock_pCube6_Auto2.uasset'
+[2019.03.01-23.00.43:046][  2]LogFileHelpers: Auto-saving content packages took 0.285
+[2019.03.01-23.00.46:325][ 13]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.03.01-23.00.54:300][452]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:/Users/Kyla/Documents/GitHub/KL_AssetPipeline/KL_OutOfClassWoodenBlocks/KL_DoorArchBlock.fbx)
+[2019.03.01-23.00.54:314][452]LogFbx: Loading FBX Scene from C:/Users/Kyla/Documents/GitHub/KL_AssetPipeline/KL_OutOfClassWoodenBlocks/KL_DoorArchBlock.fbx
+[2019.03.01-23.00.54:325][452]LogFbx: FBX Scene Loaded Succesfully
+[2019.03.01-23.00.55:564][452]LogSlate: Window 'FBX Import Options' being destroyed
+[2019.03.01-23.00.55:674][452]LogTexture: Display: Building textures: KL_WoodTileable001 (AutoDXT, 2048X2048)
+[2019.03.01-23.00.57:063][452]LogMaterial: Display: Missing cached shader map for material lambert2, compiling. 
+[2019.03.01-23.00.57:080][452]LogFbx: Warning: Triangulating static mesh pCube3
+[2019.03.01-23.00.57:084][452]LogStaticMesh: Building static mesh KL_DoorArchBlock...
+[2019.03.01-23.00.57:094][452]LogShaderCompilers: Display: Shaders left to compile 22
+[2019.03.01-23.00.57:094][452]LogShaderCompilers: Display: Shaders left to compile 12
+[2019.03.01-23.00.57:094][452]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.03.01-23.00.57:094][452]LogStaticMesh: Built static mesh [0.01s] /Game/WoodBlocks/KL_DoorArchBlock.KL_DoorArchBlock
+[2019.03.01-23.00.57:109][452]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2019.03.01-23.00.58:889][587]LogSlate: Window 'Message Log' being destroyed
+[2019.03.01-23.00.58:895][587]LogSlate: Window 'Message Log' being destroyed
+[2019.03.01-23.01.02:983][720]LogSlate: Window 'Delete Assets' being destroyed
+[2019.03.01-23.01.03:107][720]LogMaterial: Display: Missing cached shader map for material lambert2, compiling. 
+[2019.03.01-23.01.03:107][720]LogMaterial: Warning: /Game/WoodBlocks/lambert2.lambert2 (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2019.03.01-23.01.03:107][720]LogMaterial: 	(Node TextureSample) Texture Sample> Missing input texture
+[2019.03.01-23.01.04:097][763]LogActorFactory: Actor Factory created KL_DoorArchBlock
+[2019.03.01-23.01.04:910][822]LogActorFactory: Actor Factory created KL_DoorArchBlock
+[2019.03.01-23.01.08:252][147]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.03.01-23.01.09:450][204]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.01-23.01.17:923][908]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (KL_DoorArchBlock)
+[2019.03.01-23.01.19:010][ 10]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.01-23.01.25:644][693]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.01-23.01.38:924][ 56]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (KL_RooftopBlock)
+[2019.03.01-23.01.42:320][398]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (KL_DoorArchBlock)
+[2019.03.01-23.01.44:319][594]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.03.01-23.01.50:268][143]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.03.01-23.01.50:611][182]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.03.01-23.01.50:657][185]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.03.01-23.02.07:793][231]LogSlate: Window 'Save Level As' being destroyed
+[2019.03.01-23.02.07:904][231]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.03.01-23.02.07:922][231]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/WoodenBlocks" FILE="C:/Users/Kyla/Documents/GitHub/KL_AssetPipeline/KL_WoodBlockSample/Content/Maps/WoodenBlocks.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.03.01-23.02.08:094][231]LogSavePackage: Moving 'C:/Users/Kyla/Documents/GitHub/KL_AssetPipeline/KL_WoodBlockSample/Saved/WoodenBlocksCC673D0940609795C61669936E162110.tmp' to 'C:/Users/Kyla/Documents/GitHub/KL_AssetPipeline/KL_WoodBlockSample/Content/Maps/WoodenBlocks.umap'
+[2019.03.01-23.02.08:123][231]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/WoodenBlocks_BuiltData" FILE="C:/Users/Kyla/Documents/GitHub/KL_AssetPipeline/KL_WoodBlockSample/Content/Maps/WoodenBlocks_BuiltData.uasset" SILENT=true
+[2019.03.01-23.02.08:176][231]LogSavePackage: Moving 'C:/Users/Kyla/Documents/GitHub/KL_AssetPipeline/KL_WoodBlockSample/Saved/WoodenBlocks_BuiltDataDBEA63EA48BFC93D7DA16CA9E8AE3BE5.tmp' to 'C:/Users/Kyla/Documents/GitHub/KL_AssetPipeline/KL_WoodBlockSample/Content/Maps/WoodenBlocks_BuiltData.uasset'
+[2019.03.01-23.02.08:183][231]LogFileHelpers: Saving map 'WoodenBlocks' took 0.365
+[2019.03.01-23.02.12:323][590]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (KL_DoorArchBlock)
+[2019.03.01-23.02.14:704][831]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (KL_RooftopBlock)
+[2019.03.01-23.02.19:366][193]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.01-23.02.22:226][204]LogSlate: Window 'Save Content' being destroyed
+[2019.03.01-23.02.22:239][204]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.03.01-23.02.22:255][204]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/M_WoodBlockMaster_KL" FILE="C:/Users/Kyla/Documents/GitHub/KL_AssetPipeline/KL_WoodBlockSample/Content/Materials/M_WoodBlockMaster_KL.uasset" SILENT=true
+[2019.03.01-23.02.22:270][204]LogSavePackage: Moving 'C:/Users/Kyla/Documents/GitHub/KL_AssetPipeline/KL_WoodBlockSample/Saved/M_WoodBlockMaster_KL0F90B7704EB75A3BC6A6E8AA8283AB05.tmp' to 'C:/Users/Kyla/Documents/GitHub/KL_AssetPipeline/KL_WoodBlockSample/Content/Materials/M_WoodBlockMaster_KL.uasset'
+[2019.03.01-23.02.22:304][204]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/WoodBlocks/KL_DoorArchBlock" FILE="C:/Users/Kyla/Documents/GitHub/KL_AssetPipeline/KL_WoodBlockSample/Content/WoodBlocks/KL_DoorArchBlock.uasset" SILENT=true
+[2019.03.01-23.02.22:323][204]LogSavePackage: Moving 'C:/Users/Kyla/Documents/GitHub/KL_AssetPipeline/KL_WoodBlockSample/Saved/KL_DoorArchBlock6D7404B1421A3D8D687447A0E1CAE483.tmp' to 'C:/Users/Kyla/Documents/GitHub/KL_AssetPipeline/KL_WoodBlockSample/Content/WoodBlocks/KL_DoorArchBlock.uasset'
+[2019.03.01-23.02.22:329][204]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/WoodBlocks/KL_FlagBlock_pCube2" FILE="C:/Users/Kyla/Documents/GitHub/KL_AssetPipeline/KL_WoodBlockSample/Content/WoodBlocks/KL_FlagBlock_pCube2.uasset" SILENT=true
+[2019.03.01-23.02.22:337][204]LogSavePackage: Moving 'C:/Users/Kyla/Documents/GitHub/KL_AssetPipeline/KL_WoodBlockSample/Saved/KL_FlagBlock_pCube24594FC2249A61C32DB3A73A8B4E5FBAF.tmp' to 'C:/Users/Kyla/Documents/GitHub/KL_AssetPipeline/KL_WoodBlockSample/Content/WoodBlocks/KL_FlagBlock_pCube2.uasset'
+[2019.03.01-23.02.22:343][204]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/WoodBlocks/KL_FlagBlock_pCube3" FILE="C:/Users/Kyla/Documents/GitHub/KL_AssetPipeline/KL_WoodBlockSample/Content/WoodBlocks/KL_FlagBlock_pCube3.uasset" SILENT=true
+[2019.03.01-23.02.22:349][204]LogSavePackage: Moving 'C:/Users/Kyla/Documents/GitHub/KL_AssetPipeline/KL_WoodBlockSample/Saved/KL_FlagBlock_pCube3EC5E348847DDF7673F37A89DB774EF92.tmp' to 'C:/Users/Kyla/Documents/GitHub/KL_AssetPipeline/KL_WoodBlockSample/Content/WoodBlocks/KL_FlagBlock_pCube3.uasset'
+[2019.03.01-23.02.22:356][204]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/WoodBlocks/KL_FlagBlock_pCube4" FILE="C:/Users/Kyla/Documents/GitHub/KL_AssetPipeline/KL_WoodBlockSample/Content/WoodBlocks/KL_FlagBlock_pCube4.uasset" SILENT=true
+[2019.03.01-23.02.22:362][204]LogSavePackage: Moving 'C:/Users/Kyla/Documents/GitHub/KL_AssetPipeline/KL_WoodBlockSample/Saved/KL_FlagBlock_pCube41AC8E243409420BD5A3399A0C53482BE.tmp' to 'C:/Users/Kyla/Documents/GitHub/KL_AssetPipeline/KL_WoodBlockSample/Content/WoodBlocks/KL_FlagBlock_pCube4.uasset'
+[2019.03.01-23.02.22:370][204]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/WoodBlocks/KL_FlagBlock_pCube5" FILE="C:/Users/Kyla/Documents/GitHub/KL_AssetPipeline/KL_WoodBlockSample/Content/WoodBlocks/KL_FlagBlock_pCube5.uasset" SILENT=true
+[2019.03.01-23.02.22:376][204]LogSavePackage: Moving 'C:/Users/Kyla/Documents/GitHub/KL_AssetPipeline/KL_WoodBlockSample/Saved/KL_FlagBlock_pCube50E3041574602F08C176674BE74F2F7DB.tmp' to 'C:/Users/Kyla/Documents/GitHub/KL_AssetPipeline/KL_WoodBlockSample/Content/WoodBlocks/KL_FlagBlock_pCube5.uasset'
+[2019.03.01-23.02.22:384][204]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/WoodBlocks/KL_FlagBlock_pCube6" FILE="C:/Users/Kyla/Documents/GitHub/KL_AssetPipeline/KL_WoodBlockSample/Content/WoodBlocks/KL_FlagBlock_pCube6.uasset" SILENT=true
+[2019.03.01-23.02.22:390][204]LogSavePackage: Moving 'C:/Users/Kyla/Documents/GitHub/KL_AssetPipeline/KL_WoodBlockSample/Saved/KL_FlagBlock_pCube631B4272D40B6BA299A61788D147740E9.tmp' to 'C:/Users/Kyla/Documents/GitHub/KL_AssetPipeline/KL_WoodBlockSample/Content/WoodBlocks/KL_FlagBlock_pCube6.uasset'
+[2019.03.01-23.02.22:397][204]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/WoodBlocks/KL_RooftopBlock" FILE="C:/Users/Kyla/Documents/GitHub/KL_AssetPipeline/KL_WoodBlockSample/Content/WoodBlocks/KL_RooftopBlock.uasset" SILENT=true
+[2019.03.01-23.02.22:403][204]LogSavePackage: Moving 'C:/Users/Kyla/Documents/GitHub/KL_AssetPipeline/KL_WoodBlockSample/Saved/KL_RooftopBlockF32E44104FF254A76D65428E23F8B0A1.tmp' to 'C:/Users/Kyla/Documents/GitHub/KL_AssetPipeline/KL_WoodBlockSample/Content/WoodBlocks/KL_RooftopBlock.uasset'
+[2019.03.01-23.02.23:988][370]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.01-23.02.24:088][379]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/WoodenBlocks" FILE="C:/Users/Kyla/Documents/GitHub/KL_AssetPipeline/KL_WoodBlockSample/Content/Maps/WoodenBlocks.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.03.01-23.02.24:273][379]LogSavePackage: Moving 'C:/Users/Kyla/Documents/GitHub/KL_AssetPipeline/KL_WoodBlockSample/Saved/WoodenBlocks3F4726FC412F40167912B196D6075D7A.tmp' to 'C:/Users/Kyla/Documents/GitHub/KL_AssetPipeline/KL_WoodBlockSample/Content/Maps/WoodenBlocks.umap'
+[2019.03.01-23.02.24:304][379]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/WoodenBlocks_BuiltData" FILE="C:/Users/Kyla/Documents/GitHub/KL_AssetPipeline/KL_WoodBlockSample/Content/Maps/WoodenBlocks_BuiltData.uasset" SILENT=true
+[2019.03.01-23.02.24:321][379]LogSavePackage: Moving 'C:/Users/Kyla/Documents/GitHub/KL_AssetPipeline/KL_WoodBlockSample/Saved/WoodenBlocks_BuiltData86FA9DC44EE58E630FF93F9B56FD3BDE.tmp' to 'C:/Users/Kyla/Documents/GitHub/KL_AssetPipeline/KL_WoodBlockSample/Content/Maps/WoodenBlocks_BuiltData.uasset'
+[2019.03.01-23.02.25:505][496]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.03.01-23.02.29:195][921]LogUProjectInfo: Found projects:
+[2019.03.01-23.02.29:208][921]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.03.01-23.02.32:333][219]Cmd: CLOSE_SLATE_MAINFRAME
+[2019.03.01-23.02.32:614][219]LogSlate: Window 'Open Project' being destroyed
+[2019.03.01-23.02.32:617][219]LogSlate: Window 'KL_WoodBlockSample - Unreal Editor' being destroyed
+[2019.03.01-23.02.32:962][220]Cmd: QUIT_EDITOR
+[2019.03.01-23.02.33:754][220]LogExit: Preparing to exit.
+[2019.03.01-23.02.35:956][220]LogExit: Editor shut down
+[2019.03.01-23.02.35:956][220]LogExit: Transaction tracking system shut down
+[2019.03.01-23.02.42:617][220]LogExit: Object subsystem successfully closed.
+[2019.03.01-23.02.43:359][220]LogShaderCompilers: Display: Shaders left to compile 0
+[2019.03.01-23.02.43:410][220]LogD3D11RHI: Shutdown
+[2019.03.01-23.02.43:410][220]LogD3D11RHI: CleanupD3DDevice
+[2019.03.01-23.02.43:668][220]LogD3D11RHI: ~FD3D11DynamicRHI
+[2019.03.01-23.02.46:939][220]LogModuleManager: Shutting down and abandoning module StaticMeshEditor (616)
+[2019.03.01-23.02.46:939][220]LogModuleManager: Shutting down and abandoning module MeshBuilder (614)
+[2019.03.01-23.02.46:939][220]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (612)
+[2019.03.01-23.02.46:939][220]LogModuleManager: Shutting down and abandoning module SceneOutliner (610)
+[2019.03.01-23.02.46:940][220]LogModuleManager: Shutting down and abandoning module AddContentDialog (608)
+[2019.03.01-23.02.46:978][220]LogModuleManager: Shutting down and abandoning module WidgetCarousel (607)
+[2019.03.01-23.02.46:978][220]LogModuleManager: Shutting down and abandoning module EditorWidgets (604)
+[2019.03.01-23.02.46:978][220]LogModuleManager: Shutting down and abandoning module CollectionManager (602)
+[2019.03.01-23.02.47:009][220]LogModuleManager: Shutting down and abandoning module HierarchicalLODUtilities (600)
+[2019.03.01-23.02.47:034][220]LogModuleManager: Shutting down and abandoning module StatsViewer (598)
+[2019.03.01-23.02.47:052][220]LogModuleManager: Shutting down and abandoning module FoliageEdit (596)
+[2019.03.01-23.02.47:064][220]LogModuleManager: Shutting down and abandoning module LandscapeEditor (594)
+[2019.03.01-23.02.47:229][220]LogModuleManager: Shutting down and abandoning module MeshPaintMode (592)
+[2019.03.01-23.02.47:245][220]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (590)
+[2019.03.01-23.02.47:245][220]LogModuleManager: Shutting down and abandoning module ActorPickerMode (588)
+[2019.03.01-23.02.47:245][220]LogModuleManager: Shutting down and abandoning module GeometryMode (586)
+[2019.03.01-23.02.47:245][220]LogModuleManager: Shutting down and abandoning module TextureAlignMode (584)
+[2019.03.01-23.02.47:245][220]LogModuleManager: Shutting down and abandoning module BspMode (582)
+[2019.03.01-23.02.47:245][220]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (580)
+[2019.03.01-23.02.47:260][220]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (578)
+[2019.03.01-23.02.47:286][220]LogModuleManager: Shutting down and abandoning module AutomationWorker (576)
+[2019.03.01-23.02.47:286][220]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (574)
+[2019.03.01-23.02.47:286][220]LogModuleManager: Shutting down and abandoning module SequenceRecorder (573)
+[2019.03.01-23.02.47:308][220]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (570)
+[2019.03.01-23.02.47:308][220]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (568)
+[2019.03.01-23.02.47:410][220]LogModuleManager: Shutting down and abandoning module PlacementMode (567)
+[2019.03.01-23.02.47:410][220]LogModuleManager: Shutting down and abandoning module MaterialEditor (566)
+[2019.03.01-23.02.47:410][220]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (562)
+[2019.03.01-23.02.47:410][220]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (560)
+[2019.03.01-23.02.47:410][220]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (558)
+[2019.03.01-23.02.47:480][220]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (556)
+[2019.03.01-23.02.47:480][220]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (554)
+[2019.03.01-23.02.47:480][220]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (552)
+[2019.03.01-23.02.47:480][220]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (550)
+[2019.03.01-23.02.47:480][220]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (548)
+[2019.03.01-23.02.47:480][220]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (546)
+[2019.03.01-23.02.47:480][220]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (544)
+[2019.03.01-23.02.47:480][220]LogModuleManager: Shutting down and abandoning module MagicLeapCameraPreviewFactory (542)
+[2019.03.01-23.02.47:480][220]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (540)
+[2019.03.01-23.02.47:480][220]LogModuleManager: Shutting down and abandoning module MagicLeapMediaEditor (538)
+[2019.03.01-23.02.47:480][220]LogModuleManager: Shutting down and abandoning module CharacterAI (536)
+[2019.03.01-23.02.47:480][220]LogModuleManager: Shutting down and abandoning module SmartSnapping (534)
+[2019.03.01-23.02.47:480][220]LogModuleManager: Shutting down and abandoning module SessionServices (532)
+[2019.03.01-23.02.47:480][220]LogModuleManager: Shutting down and abandoning module ViewportSnapping (530)
+[2019.03.01-23.02.47:480][220]LogModuleManager: Shutting down and abandoning module ViewportInteraction (528)
+[2019.03.01-23.02.47:480][220]LogModuleManager: Shutting down and abandoning module ClothPainter (526)
+[2019.03.01-23.02.47:589][220]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (525)
+[2019.03.01-23.02.47:753][220]LogModuleManager: Shutting down and abandoning module LogVisualizer (522)
+[2019.03.01-23.02.47:846][220]LogModuleManager: Shutting down and abandoning module IntroTutorials (520)
+[2019.03.01-23.02.47:951][220]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (519)
+[2019.03.01-23.02.47:951][220]LogModuleManager: Shutting down and abandoning module LuminPlatformEditor (516)
+[2019.03.01-23.02.47:951][220]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (514)
+[2019.03.01-23.02.47:975][220]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (512)
+[2019.03.01-23.02.47:975][220]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (510)
+[2019.03.01-23.02.47:975][220]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (509)
